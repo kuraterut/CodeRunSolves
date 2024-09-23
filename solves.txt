@@ -1,0 +1,14 @@
+Бэкенд:
+1 + Java
+
+Алгоритмы:
+7 + Java
+8 + Java
+9 + Java
+10 + Java
+12 + Java
+13 + Java
+14 + Java
+15 + Java
+16 - Java
+17 - Java
