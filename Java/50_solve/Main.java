@@ -22,7 +22,7 @@ public class Main {
         for (String word : words) {
             if (!word.isEmpty()) { // Игнорируем пустые строки
                 wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
-                // System.out.println(wordCount.getOrDefault(word, 0) + 1);
+                // System.out.print((wordCount.getOrDefault(word, 0) - 1)+" ");
             }
         }
         
@@ -35,9 +35,7 @@ public class Main {
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
             String word = entry.getKey();
             int count = entry.getValue();
-            // System.out.println(word + " " + word.length());
-            // System.out.println(word + " " + mostFrequentWord+ " " + word.compareTo(mostFrequentWord));
-
+            
             if(count == maxCount){
                 ans_arr.add(word);   
             }
@@ -53,12 +51,7 @@ public class Main {
         
         Collections.sort(ans_arr);
         System.out.println(ans_arr.get(0));
-        // System.out.println("a".compareTo("b"));
-
-
-        // Вывод результата
-        // System.out.println(mostFrequentWord);
-
+        
 
     }
 }
